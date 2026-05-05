@@ -3,9 +3,9 @@ Autonomous Anti-Mist System for Car Windshield using Arduino
 
 ## Overview
 
-Mist formation on car windshields reduces visibility and increases the risk of accidents, especially in cold or humid environments. This project presents an autonomous anti-mist system that detects high humidity levels inside a vehicle and automatically activates fans to clear the windshield.
+Fogging on car windshields decreases the field of vision and increases the danger of accidents, particularly during cold or wet conditions. This paper offers an autonomous anti-fogging system that monitors high humidity within the car interior and turns the fans to remove the fog from the windshield automatically.
 
-The system is built using Arduino UNO and a DHT11 sensor, making it a low-cost and efficient solution for real-world automotive applications.
+The entire system is designed based on the use of Arduino UNO and the DHT11 sensor.
 
 ---
 
@@ -33,17 +33,17 @@ The system is built using Arduino UNO and a DHT11 sensor, making it a low-cost a
 
 ## Working Principle
 
-Fog forms when the air inside the vehicle becomes more humid than the surroundings, leading to condensation on the windshield.
+Fog is created where moisture content in the air of the car is high in comparison with that of the surroundings, and thus condensation occurs on the windscreen due to moisture.
 
-The system operates as follows:
+This is how the whole procedure takes place:
 
-1. The DHT11 sensor continuously measures humidity.
-2. If humidity exceeds a predefined threshold (70%), mist formation is assumed.
-3. The Arduino activates the relay module.
-4. The relay powers the DC fans.
-5. The fans blow air across the windshield, removing moisture.
+* DHT11 measures the humidity in the surrounding atmosphere.
+* Humidity above the limit (70%) indicates fog creation.
+* The Arduino turns the relay board ON.
+* The relay activates the DC fans.
+* The air blown by the fans clears the windscreen.
 
-Once humidity drops below the threshold, the system automatically turns off.
+The process ends once the limit is achieved and the humidity becomes lower than the limit.
 
 ---
 
