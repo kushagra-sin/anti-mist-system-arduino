@@ -1,3 +1,5 @@
+// Arduino UNO Code
+
 #include <DHT.h>
 
 #define DHTPIN_IN 2    // Pin for inside sensor
